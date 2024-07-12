@@ -42,15 +42,6 @@ const Form = ({setTodos}) => {
             <i className="fas fa-plus-circle"></i>
           </button>
         </div>
-
-        <div className="select">
-          <select name="todos" className="filter-todo">
-            <option value="all">All</option>
-            <option value="completed">Completed</option>
-            <option value="uncompleted">Uncompleted</option>
-          </select>
-        </div>
-
         <div className="alert-wrapper">
           <div className="alert-success">
             <div>Ekleme Başarılı.</div>
